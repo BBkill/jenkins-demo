@@ -3,7 +3,7 @@
 
     <Properties>
         <Property name="projectName">jenkins-demo</Property>
-        <Property name="basePath">E:/jenkins/demo/src/main/resources/log/${projectName}</Property>
+        <Property name="basePath">/home/jenkins/log/jenkins-demo</Property>
         <Property name="defaultPattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%-22.22t] %-30.30c{1} - %msg%n
         </Property>
         <Property name="consolePattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%p] %c:%L - %m%n</Property>
