@@ -2347,3 +2347,5 @@ Unconditional classes:
 2025-03-25 10:53:20.389 [INFO ] [restartedMain         ] TomcatWebServer                - Tomcat started on port(s): 8083 (http) with context path ''
 2025-03-25 10:53:20.390 [INFO ] [restartedMain         ] JenkinsDemoApplication         - Started JenkinsDemoApplication in 0.441 seconds (JVM running for 81.953)
 2025-03-25 10:53:20.392 [INFO ] [restartedMain         ] EvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-03-25 10:54:21.207 [INFO ] [Thread-18             ] letWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e2d54c6: startup date [Tue Mar 25 10:53:20 ICT 2025]; root of context hierarchy
+2025-03-25 10:54:21.208 [INFO ] [Thread-18             ] AnnotationMBeanExporter        - Unregistering JMX-exposed beans on shutdown
