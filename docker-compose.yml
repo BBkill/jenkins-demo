@@ -1,0 +1,21 @@
+networks:
+  demo:
+    name: demo
+    driver: bridge
+    external: true
+services:
+  jenkins-demo:
+    image: 103.226.249.128:8142/demo/jenkins-demo:latest
+    container_name: jenkins-demo
+    ports:
+      - "8083:8083"
+    restart: on-failure
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 10
+    pull_policy: always
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    networks:
+      - demo
